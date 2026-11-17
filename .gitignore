@@ -5,5 +5,5 @@
 build/
 .kotlin/
 *.iml
-*.apk
-!src/**/res/**/*.png
+# prebuilt extension APKs live in dist/ on purpose
+!dist/*.apk
